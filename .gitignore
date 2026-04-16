@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+
+# database
+*.db
+
+# downloads / dataset
+gallery-dl/
+data/
+downloads/
+images/
+*.jpg
+*.png
+*.mp4
+*.webm
+
+# env
+.env
+venv/
+
+# OS
+.DS_Store
