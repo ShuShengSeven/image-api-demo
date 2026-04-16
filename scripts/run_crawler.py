@@ -12,7 +12,7 @@ for root, dirs, files in os.walk(image_dir):
         if file.lower().endswith((".jpg", ".png", ".jpeg", ".webp")):
             path = os.path.join(root, file)
 
-            # 🔥 关键：自动提取tag（最后一层文件夹名）
+            # 关键：自动提取tag（最后一层文件夹名）
             tag = os.path.basename(root)
 
             insert_image(tag, path)
